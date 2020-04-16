@@ -6,22 +6,22 @@
         <link href="css/hoja-de-estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <header class="borde" id="cabecera">
+            <img src="imagenes/logo.png"/>
+        </header>
         <main>
-            <header class="borde">
-                <img src="imagenes/logo.png"/>
-            </header>
-            <nav class="borde">
-                <a href="#">CEO</a>
+            <nav class="borde" id="menu">
+                <a href="#" class="menu_activo">CEO</a>
                 <a href="#">Nueva empresa</a>
                 <a href="#">Cotizador</a>
             </nav>
-            <section>
+            <section id="sec_quien_soy">
                 <article class="borde">
                     <img src="imagenes/unnamed.jpg"/>
                 </article>
-                <article class="borde">
-                    <h1>Hola, soy <i>Carlos David Pérez</i></h1>
-                    <small>Y SOY UN DISEÑADOR GRÁFICO</small>
+                <article class="borde" id="art_soy">
+                    <h1 id="titulo_soy_dg">Hola, soy <i>Carlos David Pérez</i></h1>
+                    <small id="small_soy_dg">Y SOY UN DISEÑADOR GRÁFICO</small>
                     <hr>
                     <p>¡Hola! Si estás aquí, es porque quieres saber un poco más sobre mí, por eso, te voy a contar un poco quién soy, a qué me dedico, y cómo te puedo ayudar.</p>
                     <p>Nací en Barcelona capital, aunque he vivido toda la vida fuera pero muy cerca de ella. Me gusta tener la ciudad cerca, pero prefiero los sitios más tranquilos para vivir.</p>
@@ -30,37 +30,56 @@
                     <p>Por ese motivo, desde que perdí mi último trabajo, no envié ningún curriculum más y decidí dedicarme a algo que realmente me gustara.</p>            
                 </article>
             </section>
-            <section class="borde">
+            <section class="borde" id="sec_a_que_me_dedico">
                 <h1>¿A qué me dedico?</h1>
                 <hr>
                 <p>Actualmente, me dedico profesionalmente al diseño web con WordPress a tiempo completo. Es un trabajo que me encanta y que me permite disfrutar, por fin, de pasar horas y horas delante del ordenador, cosa que nunca antes me había sucedido.</p>
                 <p>A lo largo de este tiempo, he podido trabajar con más de 30 clientes de alrededor del país y del mundo, y he creado y diseñado más de 60 webs, gracias a lo cual he ido mejorando cada día más, perfeccionando la técnica y la creatividad a la hora de realizar nuevos proyectos.</p>
                 <p>Realizo webs para particulares y empresas, sin importar su tamaño, aunque también colaboro directamente con agencias que necesitan externalizar el diseño web y deciden contar conmigo para crear las webs de sus clientes. Sea cual sea tu caso, no dudes en contactarme.</p>
             </section>
-            <section class="borde">
+            <section class="borde" id="sec_como_puedo_ayudarte">
                 <h1>¿Cómo puedo ayudarte?</h1>
-                <article class="borde">
-                    <h2>Diseño Litográfico</h2>
-                    <p>Nuestros servicios profesionales enfocados al diseño e impresión litográfica, nuestra maquinaria, como nuestro equipo de profesionales en las artes gráficas nos permite realizar grandes producciones con altos estándares de calidad.</p>
-                    <button>ver servicio</button>
-                </article>
-                <article class="borde">
-                    <h2>Diseño tienda online</h2>
-                    <p>Te creo y diseño una tienda online completamente funcional con WordPress y WooCommerce para que puedas comenzar a vender tus productos. Da igual que tenga pocos o miles de productos.</p>
-                    <button>ver servicio</button>
-                </article>
-                <article class="borde">
-                    <h2>Mantenimiento web</h2>
-                    <p>Me encargo de tener tu web hecha con WordPress al día y sin problemas, manteniéndola actualizada, optimizada, creando copias de seguridad, solucionando los problemas que vayan surgiendo, etc.</p>
-                    <button>ver servicio</button>
-                </article>
+                <section id="sec_servicios">
+                    <article class="borde">
+                        <h2>Diseño Litográfico</h2>
+                        <p>Nuestros servicios profesionales enfocados al diseño e impresión litográfica, nuestra maquinaria, como nuestro equipo de profesionales en las artes gráficas nos permite realizar grandes producciones con altos estándares de calidad.</p>
+                        <button>ver servicio</button>
+                    </article>
+                    <article class="borde art_tz">
+                        <h2>Diseño tienda online</h2>
+                        <p>Te creo y diseño una tienda online completamente funcional con WordPress y WooCommerce para que puedas comenzar a vender tus productos. Da igual que tenga pocos o miles de productos.</p>
+                        <button>ver servicio</button>
+                    </article>
+                    <article class="borde art_tz">
+                        <h2>Mantenimiento web</h2>
+                        <p>Me encargo de tener tu web hecha con WordPress al día y sin problemas, manteniéndola actualizada, optimizada, creando copias de seguridad, solucionando los problemas que vayan surgiendo, etc.</p>
+                        <button>ver servicio</button>
+                    </article>
+                </section>
             </section>
-            <section class="borde">
-
+            <section class="borde" id="sec_herramientas">
+                <h1>Herramientas de mi dominio</h1>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Photoshop</th>
+                            <th>Ilustrator</th>
+                            <th>CorelDRAW</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="imagenes/Adobe_Photoshop_CS5_icon.png"/></td>
+                            <td><img src="imagenes/200px-Illustrator_CC_icon.png"/></td>
+                            <td><img src="imagenes/corel.png"/></td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
-            <footer class="borde">
-
-            </footer>
         </main>
+        <footer class="borde" id="pie_de_pagina">
+            <p>Copyrigth © 2020 | Medellín - <a href="https://www.antioquia.gov.co/" target="_top">Antioquia</a>, Colombia | Nuestra Empresa | Contacto</p>
+        </footer>
+        
     </body>
 </html>
