@@ -177,31 +177,6 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
- /*    display: flex;
-    flex-wrap:wrap;
-    flex-direction: row-reverse; */
-    /*flex-direction: column; */
-   /*flex-direction:row;
-    flex-wrap:wrap;
-    flex-wrap: Agregar varios a
-    flex-wrap:wrap;
-    flex-wrap: nowrap;
-    justify-content: flex-start
-    justify-content: flex-end;
-    justify-content: center;
-    justify-content: space-between;
-    justify-content: space-around;*/
-    /*align-items: flex-start;
-    align-items: flex-end;
-    align-items: center;
-    align-items: stretch; --> quitar el alto
-    align-items: baseline;
-    align-content: flex-end;
-    align-content: center;
-    align-content: flex-start ;
-    align-content: space-between;
-    align-content: space-around;*/
-  /*  align-content: space-around; */
 }
 
 #sec_contenedor_lg img{
@@ -234,3 +209,17 @@ body{
     align-self: flex-end;*/
     height: auto;
 }
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: red;
+    }
+}
+  
+
+@media print {
+    h1 {
+    color: red;
+    }
+}
+   
