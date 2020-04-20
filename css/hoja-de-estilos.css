@@ -3,7 +3,8 @@ body{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lato', serif;
+    width: 100%;
     text-align: justify;
     /* background-color: blue;
     background-image: url('/imagenes/fondo_textura_1.jpg'); */
