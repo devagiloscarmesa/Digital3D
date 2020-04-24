@@ -1,0 +1,275 @@
+.contenedor, .contenedor-con-altura {
+  width: 1024px;
+  padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p, #mi-articulo {
+  color: #2e2a2a;
+}
+
+.contenedor-con-altura {
+  height: 400px;
+  background-color: #0000ffd5;
+}
+
+main {
+  color: #2e2a2a;
+  padding: 15px;
+}
+
+main nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: red;
+  font-size: 15px;
+  background-color: red;
+}
+
+main nav a {
+  background-color: green;
+  display: inline-block;
+}
+
+a {
+  color: #2e2a2a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:focus {
+  color: blue;
+}
+
+.mitad {
+  width: 512px;
+}
+
+.cuarto {
+  width: 256px;
+}
+
+.octavo {
+  width: 128px;
+}
+
+.decimo {
+  width: 102.4px;
+}
+
+.contenedor-condicionado {
+  color: blue;
+}
+
+.contenedor-condicionado a {
+  padding: 200px;
+}
+
+.col-1 {
+  width: "1024%";
+}
+
+.col-2 {
+  width: "512%";
+}
+
+.col-3 {
+  width: "341.33333%";
+}
+
+.col-4 {
+  width: "256%";
+}
+
+.col-5 {
+  width: "204.8%";
+}
+
+.col-6 {
+  width: "170.66667%";
+}
+
+.col-7 {
+  width: "146.28571%";
+}
+
+.col-8 {
+  width: "128%";
+}
+
+.col-9 {
+  width: "113.77778%";
+}
+
+.col-10 {
+  width: "102.4%";
+}
+
+.col-11 {
+  width: "93.09091%";
+}
+
+.col-12 {
+  width: "85.33333%";
+}
+
+.col-13 {
+  width: "78.76923%";
+}
+
+.col-14 {
+  width: "73.14286%";
+}
+
+.col-15 {
+  width: "68.26667%";
+}
+
+.col-16 {
+  width: "64%";
+}
+
+.col-17 {
+  width: "60.23529%";
+}
+
+.col-18 {
+  width: "56.88889%";
+}
+
+.col-19 {
+  width: "53.89474%";
+}
+
+.col-20 {
+  width: "51.2%";
+}
+
+.col-21 {
+  width: "48.7619%";
+}
+
+.col-22 {
+  width: "46.54545%";
+}
+
+.col-23 {
+  width: "44.52174%";
+}
+
+.col-24 {
+  width: "42.66667%";
+}
+
+.col-25 {
+  width: "40.96%";
+}
+
+.col-26 {
+  width: "39.38462%";
+}
+
+.col-27 {
+  width: "37.92593%";
+}
+
+.col-28 {
+  width: "36.57143%";
+}
+
+.col-29 {
+  width: "35.31034%";
+}
+
+.col-30 {
+  width: "34.13333%";
+}
+
+.col-31 {
+  width: "33.03226%";
+}
+
+.col-32 {
+  width: "32%";
+}
+
+.col-33 {
+  width: "31.0303%";
+}
+
+.col-34 {
+  width: "30.11765%";
+}
+
+.col-35 {
+  width: "29.25714%";
+}
+
+.col-36 {
+  width: "28.44444%";
+}
+
+.col-37 {
+  width: "27.67568%";
+}
+
+.col-38 {
+  width: "26.94737%";
+}
+
+.col-39 {
+  width: "26.25641%";
+}
+
+.col-40 {
+  width: "25.6%";
+}
+
+.col-41 {
+  width: "24.97561%";
+}
+
+.col-42 {
+  width: "24.38095%";
+}
+
+.col-43 {
+  width: "23.81395%";
+}
+
+.col-44 {
+  width: "23.27273%";
+}
+
+.col-45 {
+  width: "22.75556%";
+}
+
+.col-46 {
+  width: "22.26087%";
+}
+
+.col-47 {
+  width: "21.78723%";
+}
+
+.col-48 {
+  width: "21.33333%";
+}
+
+.col-49 {
+  width: "20.89796%";
+}
+
+nav {
+  padding: 30%;
+}
+
+.contenedor-menu {
+  background-color: yellow;
+}
+/*# sourceMappingURL=hoja-de-estilos.css.map */

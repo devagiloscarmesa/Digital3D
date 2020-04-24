@@ -1,0 +1,90 @@
+$ancho : 1024px;
+$ancho-numerico : 1024; 
+$alto : 400px;
+$alto-numerico : 400;
+$colo_letra : #2e2a2a;
+
+.contenedor{
+    width: $ancho;
+    padding: 10px;
+}
+
+h1, h2, h3,h4, h5, h6, p, #mi-articulo{
+    color: $colo_letra;
+}
+
+.contenedor-con-altura{
+    @extend .contenedor;
+    height: $alto;
+    background-color: #0000ffd5;
+}
+
+main{
+    color: $colo_letra;
+    padding: 15px;
+    nav{
+        display: flex;
+        color: red;
+        font-size: 15px;
+        background-color: red;
+        a{
+            background-color: green;
+            display: inline-block;
+        }
+    }
+}
+
+a{
+    color: $colo_letra;
+    text-decoration: none;
+    &:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    &:focus{
+        color:blue;
+    }
+}
+
+.mitad{
+    width: ($ancho/2);
+}
+
+.cuarto{
+    width: ($ancho/4);
+}
+
+.octavo{
+    width: ($ancho/8);
+}
+
+@function divir($tam, $n_partes){
+    $resulta : ($tam / $n_partes);
+    @return $resulta;
+}
+
+.decimo{
+    width: divir($ancho, 10);
+}
+
+.contenedor-condicionado{
+    @if $alto-numerico < 300 {
+        color: red;
+        p{
+          background-color: black;  
+        }
+    }@else{
+        color: blue;
+        a{
+            padding: 200px;
+        }
+    }
+}
+
+@for $parte from 1 to 50 {
+    .col-#{$parte}{
+        width: $ancho-numerico / $parte + "%";
+    }
+}
+
+@import "menu";
